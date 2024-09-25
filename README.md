@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/natoloe009/SCRIPT-ROBLOX/main/Orion%20KaGa.lua')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DKUUB/Orionui/refs/heads/main/README.md')))()
 
 local Window = OrionLib:MakeWindow({Name = "DANGO HUB - FE ScriptHub", HidePremium = false, SaveConfig = true, IntroEnabled = false, ConfigFolder = "YourConfig"})
 
