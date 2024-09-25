@@ -1,6 +1,10 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DKUUB/Orionui/refs/heads/main/README.md')))()
 
-local Window = OrionLib:MakeWindow({Name = "DANGO HUB - FE ScriptHub", HidePremium = false, SaveConfig = true, IntroEnabled = false, ConfigFolder = "YourConfig"})
+local Window = OrionLib:MakeWindow({Name = "DANGO HUB - FE ScriptHub", 
+HidePremium = false, 
+SaveConfig = true, 
+IntroEnabled = false, 
+ConfigFolder = "YourConfig"})
 
 local Tab = Window:MakeTab({
 	Name = "Local",
@@ -685,6 +689,15 @@ Tab:AddButton({
     local ply = game.Players.LocalPlayer
     local chr = ply.Character
     chr.Head.face.Texture = "rbxassetid://209712379"
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Furious George [R15 & R6]",
+	Callback = function()
+    local ply = game.Players.LocalPlayer
+    local chr = ply.Character
+    chr.Head.face.Texture = "rbxassetid://277950647"
   	end    
 })
 
