@@ -694,20 +694,20 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "ROBLOX Madness Face [R15 & R6]",
+	Name = "Epic Face [R15 & R6]",
 	Callback = function()
     local ply = game.Players.LocalPlayer
     local chr = ply.Character
-    chr.Head.face.Texture = "rbxassetid://130213380"
+    chr.Head.face.Texture = "rbxassetid://42070576"
   	end    
 })
 
 Tab:AddButton({
-	Name = "Golden Shiny Teeth [R15 & R6]",
+	Name = "Furious George Teeth [R15 & R6]",
 	Callback = function()
     local ply = game.Players.LocalPlayer
     local chr = ply.Character
-    chr.Head.face.Texture = "rbxassetid://66319941"
+    chr.Head.face.Texture = "rbxassetid://277950647"
   	end    
 })
 
