@@ -6,7 +6,7 @@ HidePremium = false,
 SaveConfig = true, 
 IntroEnabled = false, 
 ConfigFolder = "YourConfig",
-IntroText = DANGO HUB})
+IntroText = "DANGO HUB - FEScriptHub"})
 
 local Tab = Window:MakeTab({
 	Name = "Local",
