@@ -1,11 +1,12 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DKUUB/Orionui/refs/heads/main/README.md')))()
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
 
 local Window = OrionLib:MakeWindow({
 Name = "DANGO HUB - FEScriptHub", 
 HidePremium = false, 
 SaveConfig = true, 
 IntroEnabled = false, 
-ConfigFolder = "YourConfig"})
+ConfigFolder = "YourConfig",
+IntroText = DANGO HUB})
 
 local Tab = Window:MakeTab({
 	Name = "Local",
